@@ -1,0 +1,19 @@
+[/]
+default='bed59a89-6471-4c41-8a29-847b4c456f06'
+list=['bed59a89-6471-4c41-8a29-847b4c456f06']
+
+[:bed59a89-6471-4c41-8a29-847b4c456f06]
+background-color='rgb(8,8,8)'
+background-transparency-percent=10
+bold-color='rgb(238,238,238)'
+bold-color-same-as-fg=true
+bold-is-bright=false
+cursor-background-color='rgb(158,158,158)'
+cursor-foreground-color='rgb(8,8,8)'
+foreground-color='rgb(189,189,189)'
+highlight-background-color='rgb(178,206,238)'
+highlight-foreground-color='rgb(8,8,8)'
+palette=['rgb(50,52,55)', 'rgb(255,84,84)', 'rgb(140,200,95)', 'rgb(227,199,138)', 'rgb(128,160,255)', 'rgb(207,135,232)', 'rgb(121,218,200)', 'rgb(198,198,198)', 'rgb(148,148,148)', 'rgb(255,81,137)', 'rgb(54,198,146)', 'rgb(194,194,146)', 'rgb(116,178,255)', 'rgb(174,129,255)', 'rgb(133,220,133)', 'rgb(228,228,228)']
+use-theme-transparency=false
+use-transparent-background=true
+visible-name='Moonfly'

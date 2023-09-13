@@ -25,6 +25,7 @@
     pkgs.go_1_21
     pkgs.neovim-nightly
     pkgs.nodejs_18
+    pkgs.ripgrep
     pkgs.slack
     pkgs.spotify
     pkgs.xclip
@@ -83,6 +84,7 @@
     extraConfig = ''
       set -as terminal-features ',xterm-256color:RGB'
       set -g status-style 'bg=#323437,fg=#74b2ff'
+      set -s escape-time 0
     '';
   };
 

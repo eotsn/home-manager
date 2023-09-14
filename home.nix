@@ -67,6 +67,16 @@
     };
   };
 
+  programs.lazygit = {
+    enable = true;
+    settings = {
+      git.paging = {
+        coloArgs = "always";
+        pager = "diff-so-fancy";
+      };
+    };
+  };
+
   programs.ssh = {
     enable = true;
     matchBlocks = {

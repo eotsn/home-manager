@@ -33,6 +33,7 @@
 
   home.file = {
     ".background".source = backgrounds/default.jpg;
+    ".local/bin/tmux-sessionizer".source = scripts/tmux-sessionizer;
   };
 
   home.sessionVariables = {
@@ -44,6 +45,9 @@
   programs.zsh = {
     enable = true;
     enableAutosuggestions = true;
+    initExtra = ''
+      bindkey -s ^f "tmux-sessionizer\n"
+    '';
     oh-my-zsh = {
       enable = true;
       plugins = [ "git" "fzf" ];

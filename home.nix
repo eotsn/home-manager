@@ -26,8 +26,6 @@
     pkgs.neovim-nightly
     pkgs.nodejs_18
     pkgs.ripgrep
-    pkgs.slack
-    pkgs.spotify
     pkgs.xclip
   ];
 

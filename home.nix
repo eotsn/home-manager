@@ -23,6 +23,7 @@
 
   home.packages = [
     pkgs.go_1_21
+    pkgs.google-cloud-sdk
     pkgs.neovim-nightly
     pkgs.nodejs_18
     pkgs.ripgrep
